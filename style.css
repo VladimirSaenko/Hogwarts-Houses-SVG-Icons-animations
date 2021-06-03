@@ -1,0 +1,186 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #06181f;
+    transition: 2s;
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container .icon {
+    width: 275px;
+    cursor: default;
+    text-align: center;
+    margin: 0px 70px;
+    padding: -80px;
+    /* cursor: pointer; */
+}
+
+.container .icon path {
+    fill: transparent;
+    stroke: #31e8ff;
+    stroke-width: 10;
+}
+
+.container .icon.hufflepuff path{
+    stroke-width: 10;
+}
+
+.title {
+    visibility: hidden;
+    font-family: 'Akaya Kanadaka', cursive, sans-serif;
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 45px;
+}
+
+.container .icon.gryffindor path {
+    stroke-dasharray: 2560;
+    stroke-dashoffset: 0;
+}
+
+.container .icon.gryffindor:hover path {
+    animation: animate-lion 2s linear forwards;
+}
+
+@keyframes animate-lion {
+    0% {
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dashoffset: 1560;
+    }
+
+    80% {
+        stroke-dashoffset: 3120;
+        fill: transparent;
+    }
+
+    100% {
+        stroke-dashoffset: 2560;
+        fill: red;
+        stroke: red;
+    }
+}
+
+/* .container .icon.hufflepuff path {
+    stroke-dasharray: 1810;
+    stroke-dashoffset: 0;
+}
+
+.container .icon.hufflepuff:hover path {
+    animation: animate-badger 2.5s linear forwards;
+}
+
+@keyframes animate-badger {
+    0% {
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dashoffset: 1810;
+    }
+
+    80% {
+        stroke-dashoffset: 3620;
+        fill: transparent;
+    }
+
+    100% {
+        stroke-dashoffset: 3620;
+        fill: #e6ff05;
+        stroke: #eeff05;
+    }
+} */
+
+.container .icon.slytherin path {
+    stroke-dasharray: 3620;
+    stroke-dashoffset: 0;
+    stroke: rgb(10, 255, 243);
+}
+
+.container .icon.slytherin:hover path {
+    animation: animate-snake 1.5s linear forwards;
+}
+
+@keyframes animate-snake {
+    0% {
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dashoffset: 1560;
+    }
+
+    80% {
+        stroke-dashoffset: 2560;
+        fill: transparent;
+    }
+
+    100% {
+        stroke-dashoffset: 3620;
+        /* fill: rgb(35, 233, 35); */
+        fill: gray;
+        stroke: black;
+    }
+}
+
+.container .icon.ravenclaw path {
+    stroke-dasharray: 2560;
+    stroke-dashoffset: 0;
+}
+
+.container .icon.ravenclaw:hover path {
+    animation: animate-raven 2s linear forwards;
+}
+
+@keyframes animate-raven {
+    0% {
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dashoffset: 1560;
+    }
+
+    80% {
+        stroke-dashoffset: 2560;
+    }
+
+    100% {
+        stroke-dashoffset: 2560;
+        fill: white;
+        stroke: black;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .container .icon {
+        margin: 0;
+        padding: 0;
+    }
+}
