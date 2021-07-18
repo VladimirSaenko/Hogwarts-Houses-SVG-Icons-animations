@@ -1,5 +1,5 @@
 
-"use strict"
+"use strict";
 
 let body = document.body;
 let lion = document.getElementById("lion");
