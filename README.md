@@ -16,12 +16,10 @@
 
 ![23 — копия](https://user-images.githubusercontent.com/56477695/120863323-0504d800-c593-11eb-926c-280cc0143d8e.png)
 
-
 ![232](https://user-images.githubusercontent.com/56477695/123521589-4a16b880-d6c0-11eb-8f23-677ba19f5574.jpg)
-
 
 ### Codepen {
 
-https://codepen.io/vladimirsaenko/pen/YzZBbGJ
+#### https://codepen.io/vladimirsaenko/pen/YzZBbGJ
 
-}
+### }
