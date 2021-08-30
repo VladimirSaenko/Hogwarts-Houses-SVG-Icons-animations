@@ -77,8 +77,8 @@ body {
 
     100% {
         stroke-dashoffset: 2560;
-        fill: red;
-        stroke: red;
+        fill: yellow;
+        stroke: yellow;
     }
 }
 
@@ -138,7 +138,7 @@ body {
     100% {
         stroke-dashoffset: 3620;
         /* fill: rgb(35, 233, 35); */
-        fill: gray;
+        fill: white;
         stroke: black;
     }
 }
