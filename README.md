@@ -12,6 +12,6 @@
 
 ![meme](https://user-images.githubusercontent.com/56477695/132378659-389fd1b4-eb32-4c75-aab2-fd24d3060883.jpg)
 
-![meme3](https://user-images.githubusercontent.com/56477695/132378669-27d1c2a3-e766-427c-869e-7ada8c6f6f56.jpg)
+![s](https://user-images.githubusercontent.com/56477695/132379675-198eab6e-cb6b-4f80-84cf-8863a179955d.jpg)
 
 ![meme — копия](https://user-images.githubusercontent.com/56477695/132378799-64f1668d-2af0-49b1-9f41-9e7c50f9bffb.jpg)
