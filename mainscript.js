@@ -51,7 +51,7 @@ raven.addEventListener('mouseout',function() {
 slytherin.addEventListener('mousemove', function() {
     body.style.background = "green";
     title2.style.visibility = "visible";
-    title2.style.color = "black";
+    title2.style.color = "white";
     title2.innerHTML = "slytherin";
     raven.style.visibility = "hidden";
     lion.style.visibility = "hidden";
