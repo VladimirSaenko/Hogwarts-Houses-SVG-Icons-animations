@@ -2,7 +2,7 @@
  
 ### Анимации SVG иконок факультетов Хогвартса: Гриффиндор, Слизерин и Когтевран(Ravenclaw)
 
-### Codepen {
+## Codepen {
 
 ### https://codepen.io/vladimirsaenko/pen/YzZBbGJ
 
