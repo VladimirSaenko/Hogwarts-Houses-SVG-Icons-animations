@@ -12,18 +12,14 @@ let title3 = document.getElementById("title3");
 lion.addEventListener('mousemove', function() {
     body.style.background = "red";
     title1.style.visibility = "visible";
-    title1.innerHTML = "gryffindor";
+    title1.innerText = "gryffindor";
     title1.style.color = "yellow";
-    slytherin.style.visibility = "hidden";
-    raven.style.visibility = "hidden";
     title2.style.visibility = "hidden";
     title3.style.visibility = "hidden";
 })
 
 lion.addEventListener('mouseout', function() {
     body.style.background = "#06181f";
-    slytherin.style.visibility = "visible";
-    raven.style.visibility = "visible";
     title1.style.visibility = "hidden";
     title2.style.visibility = "hidden";
     title3.style.visibility = "hidden";
@@ -33,16 +29,13 @@ raven.addEventListener("mousemove",function() {
     body.style.background = "blue";
     title3.style.visibility = "visible";
     title3.style.color = "white";
-    title3.innerHTML = "ravenclaw";
-    slytherin.style.visibility = "hidden";
-    lion.style.visibility = "hidden";
+    title3.innerText = "ravenclaw";
     title1.style.visibility = "hidden";
+    title2.style.visibility = "hidden";
 })
 
 raven.addEventListener('mouseout',function() {
     body.style.background = "#06181f";
-    slytherin.style.visibility = "visible";
-    lion.style.visibility = "visible";
     title1.style.visibility = "hidden";
     title2.style.visibility = "hidden";
     title3.style.visibility = "hidden";
@@ -52,18 +45,13 @@ slytherin.addEventListener('mousemove', function() {
     body.style.background = "green";
     title2.style.visibility = "visible";
     title2.style.color = "white";
-    title2.innerHTML = "slytherin";
-    raven.style.visibility = "hidden";
-    lion.style.visibility = "hidden";
+    title2.innerText = "slytherin";
     title1.style.visibility = "hidden";
     title3.style.visibility = "hidden";
 })
 
 slytherin.addEventListener('mouseout', function() {
     body.style.background = "#06181f";
-    title3.style.visibility = "hidden";
-    raven.style.visibility = "visible";
-    lion.style.visibility = "visible";
     title1.style.visibility = "hidden";
     title2.style.visibility = "hidden";
     title3.style.visibility = "hidden";

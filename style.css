@@ -25,12 +25,9 @@ body {
 }
 
 .container .icon {
-    width: 275px;
-    cursor: default;
+    /* cursor: default; */
     text-align: center;
     margin: 0px 70px;
-    padding: -80px;
-    /* cursor: pointer; */
 }
 
 .container .icon path {
