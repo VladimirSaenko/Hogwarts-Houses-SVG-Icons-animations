@@ -8,6 +8,7 @@
 
 ![meme](https://user-images.githubusercontent.com/56477695/132378659-389fd1b4-eb32-4c75-aab2-fd24d3060883.jpg)
 
-![s](https://user-images.githubusercontent.com/56477695/132379675-198eab6e-cb6b-4f80-84cf-8863a179955d.jpg)
+![snake](https://user-images.githubusercontent.com/56477695/172609204-729fc71b-0715-4b0c-825d-74fca5c8deaf.png)
 
-![meme — копия](https://user-images.githubusercontent.com/56477695/132378799-64f1668d-2af0-49b1-9f41-9e7c50f9bffb.jpg)
+
+![raven](https://user-images.githubusercontent.com/56477695/172609062-e70da30a-223d-40cc-acd3-f96510877d8f.png)
